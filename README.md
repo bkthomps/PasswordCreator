@@ -2,10 +2,11 @@
 Creates a randomized password.
 
 ### Setup
-1. Clone the repository
-2. Add an alias to the script in your bashrc, for example:
+* Clone the repository
+* You can add some aliases to your bashrc for convenience
 ```
-alias gen='~/ShellProjects/PasswordCreator/create_password.sh'
+alias genpass='~/ShellProjects/PasswordCreator/create_password.sh'
+alias gen='genpass 1 1 1 1 25'
 ```
-3. Run: `source ~/.bashrc`
-4. Now, whenever you need a password, run `gen` and a password will be added to your clipboard
+* Reload your bashrc with `source ~/.bashrc`
+* Now you can call genpass to call the script, and you can call gen to generate a strong password
