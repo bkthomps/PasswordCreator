@@ -3,7 +3,7 @@
 LOWERCASE="abcdefghijklmnopqrstuvwxyz"
 UPPERCASE="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 NUMBERS="0123456789"
-SPECIAL_CHARACTERS="\~!@#\$%^&*()-_=+[{]}\\|;:'\",<.>/?"
+SPECIAL_CHARACTERS="~!@#\$%^&*()-_=+[]{}|;:',.<>/?\"\\"
 
 if [[ $# -ne 5 ]]
 then
