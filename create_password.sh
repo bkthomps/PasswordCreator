@@ -7,12 +7,12 @@ SPECIAL_CHARACTERS="\~!@#\$%^&*()-_=+[{]}\\|;:'\",<.>/?"
 
 if [[ $# -ne 5 ]]
 then
-	arg1="<allow_lowercase? 0 or 1>"
-	arg2="<allow_uppercase? 0 or 1>"
-	arg3="<allow_numbers? 0 or 1>"
-	arg4="<allow_special_characters? 0 or 1>"
-	arg5="<size? number>"
-	echo "Usage: $0 $arg1 $arg2 $arg3 $arg4 $arg5"
+	echo "Usage: $0 <arg1> <arg2> <arg3> <arg4> <arg5>"
+	echo "  arg1 : <allow_lowercase? 0 or 1>"
+	echo "  arg2 : <allow_uppercase? 0 or 1>"
+	echo "  arg3 : <allow_numbers? 0 or 1>"
+	echo "  arg4 : <allow_special_characters? 0 or 1>"
+	echo "  arg5 : <size? number>"
 	exit 1
 fi
 
